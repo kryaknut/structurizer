@@ -1,0 +1,25 @@
+{
+  "name": "structurizer",
+  "displayName": "structurizer",
+  "description": "can custom structure ",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.createProjectStructure",
+        "title": "Create Project Structure"
+      }
+    ]
+  },
+  "scripts": {
+  "build": "tsc"
+}
+}
