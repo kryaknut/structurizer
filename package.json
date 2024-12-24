@@ -16,6 +16,10 @@
       {
         "command": "extension.createProjectStructure",
         "title": "Create Project Structure"
+      },
+      {
+        "command": "extension.updateCMakeLists",
+        "title": "Update CMakeLists.txt"
       }
     ]
   },
